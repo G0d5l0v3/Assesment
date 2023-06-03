@@ -12,7 +12,7 @@ fetch(url)
             <div>
                 <img src = ${data[i].image}>
             </div>
-            <p>Title: ${data[i].title}</p>
+            <p class="title"> ${data[i].title}</p>
             <p>Price: ${data[i].price}</p>
             <p>Description: ${data[i].description}</p>
             <p>Category: ${data[i].category}</p> 
@@ -20,7 +20,5 @@ fetch(url)
             `
         }
         container.innerHTML = display;
-
-
     });
 
